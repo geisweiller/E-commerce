@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
+import {darken} from 'polished';
 
 export const Container = styled.div`
   padding: 30px;
@@ -13,7 +13,7 @@ export const Container = styled.div`
     align-items: center;
 
     button {
-      background: #7159c1;
+      background: #ce7492;
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -23,7 +23,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, '#7159c1')};
+        background: ${darken(0.03,'#ce7492')};
       }
     }
   }
@@ -34,13 +34,12 @@ export const ProductTable = styled.table`
 
   thead th {
     color: #999;
-    text-align-last: left;
+    text-align: left;
     padding: 12px;
   }
 
   tbody td {
     padding: 12px;
-    /* vertical-align: middle; */
     border-bottom: 1px solid #eee;
   }
 
@@ -54,7 +53,6 @@ export const ProductTable = styled.table`
   }
 
   span {
-    display: block;
     margin-top: 5px;
     font-size: 18px;
     font-weight: bold;
@@ -62,7 +60,8 @@ export const ProductTable = styled.table`
 
   div {
     display: flex;
-    align-items: center;
+    align-self: center;
+  }
 
     input {
       border: 1px solid #ddd;
@@ -71,13 +70,6 @@ export const ProductTable = styled.table`
       padding: 6px;
       width: 50px;
     }
-  }
-
-  button {
-    background: none;
-    border: 0;
-    padding: 6px;
-  }
 `;
 
 export const Total = styled.div`
