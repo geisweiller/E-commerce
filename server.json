@@ -1,0 +1,67 @@
+
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Biquíni flamingo azul claro",
+      "price": 89.9,
+      "image": "https://i.shafacdn.net/images/157442-65-465-645-Mrcmz3n0bVI.webp"
+    },
+    {
+      "id": 2,
+      "title": "Biquíni estampa floral com proteção uv 50+",
+      "price": 119.9,
+      "image": "https://i.shafacdn.net/images/181346-65-465-645-88YgBgKaGM0.webp "
+    },
+    {
+      "id": 3,
+      "title": "Biquini asa delta uv 50+ neon, cor Rosa ",
+      "price": 89.9,
+      "image": "https://i.shafacdn.net/images/189361-65-465-645--xhQr9vAoIo.webp"
+    },
+    {
+      "id": 5,
+      "title": "Biquíni com aro inspiração versace, cor Branco",
+      "price": 119.9,
+      "image": "https://i.shafacdn.net/images/195139-65-465-645-qnLEWZ0O41U.webp"
+    },
+    {
+      "id": 6,
+      "title": "Biquíni estampado cortininha levanta bumbum bojo removível, cor Rosa",
+      "price": 69.9,
+      "image": "https://i.shafacdn.net/images/199440-65-465-645-hD-RqpWnfQk.webp"
+    },
+    {
+      "id": 4,
+      "title": "Biquini luxo empina bumbum inspiração louis vuitton, cor Preto",
+      "price": 99.9,
+      "image": "https://i.shafacdn.net/images/195205-65-465-645-BoMpKZFNEgg.webp"
+    }
+  ]
+}
